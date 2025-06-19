@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Museu Nacional</title>
+        <meta charset="UTF-8">
+        <!-- Normaliza CSS -->
+         <link rel="stylesheet" type="text/css" href="css/Normalize.css"
+
+        <!-- Estilo Customizado -->
+         <link rel="stylesheet" type="text/css" href="css/Estilo.css"
+
+         <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+            <![endif]-->
+    </head>
+    <body>
+        <div id="container"> <!-- ÍNICIO DO CONTAINER-->
+
+            <header> <!-- ÍNICIO DO HEADER-->
+                <div id="logo">
+                    <h1> <a href=""> Museu Nacional </a> </h1>
+                </div>
+
+                <nav> <!-- ÍNICIO DO NAV-->
+                    <ul>
+                        <li> <a href="#">Home </a> </li>
+                        <li> <a href="#">Exposições</a> </li>
+                        <li> <a href="#">Pesquisa</a> </li>
+                        <li> <a href="#">Acervo</a> </li>
+                        <li> <a href="#">Vídeos</a> </li>
+                        <li> <a href="#">Fotos</a> </li>
+                        <li> <a href="#">Contato</a> </li>
+                    </ul>
+    
+                </nav> <!-- FIM DO NAV-->
+
+            </header> <!-- FIM DO HEADER-->
+
+            <div id="principal"> <!-- INICIO PRINCIPAL-->
+
+            </div> <!-- FIM PRINCIPAL-->
+                <div  id="conteudo">
+                    <section id="capa"> 
+                        <img src="img/museu.png">
+                    </section>
+                    <section id="postagens">
+                        <article id="video">
+
+                            <h3>Conheça o Museu</h3>
+
+                                <iframe width="310" height="170" src="https://www.youtube.com/embed/4N7n77XR27Q?si=RaJCcqdr7l-GYpxg" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </article>
+                            
+                        <article id="mapa">
+                            <h3>Mapa: Encontre o Museu</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.029726079805!2d-46.63562781754373!3d-23.534674656765002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5858e87e68e7%3A0xdcc3da8573212301!2sPinacoteca%20de%20S%C3%A3o%20Paulo!5e1!3m2!1spt-BR!2sbr!4v1740687309744!5m2!1spt-BR!2sbr" 
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </article>
+
+                        <article id="Exposições"> <!-- LISTA EMBAIXO DO VIDEO-->
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Os Assustadores Insetos</a>
+                                </li>
+                                <li>
+                                    <a href="#">O Crânio de Luzia, mulher mais antiga do Brasil</a>
+                                </li>
+                                <li>
+                                    <a href="#">Preguiça Gigante e o Tigre Dente de Sabre</a>
+                                </li>
+                                <li>
+                                    <a href="#">Plantas do Brasil Central</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                                </li>
+                                <li>
+                                    <a href="#">Arte Com Dinossauros - Paleoarte</a>
+                                </li>
+                                <li>
+                                    <a href="#"><strong> Veja Todos (65) </strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <article id="historia">
+                            <h3>200 Anos de História</h3>
+                            <p> As obras, documentos, artefatos que compõem os acervos museais não são objetos marcados num tempo e espaço: são vestígios do passado, 
+                                estão em constante fricção com o presente, possibilitam a nós humanos a criação de nossos futuros.A exposição virtual 
+                                "As histórias que o museu conta" não vem entregar conhecimentos completos, mas propor leituras possíveis - seja você uma pessoa 
+                                pesquisadora ou somente curiosa sobre sua realidade.</p>
+                            <a href=""><strong>Leia Mais</strong></a>
+                        </article>
+
+                    </section>
+
+                </div>
+                <aside>                                    <!-- INICIO ASIDE-->
+                    <section id="depoimento">
+                        <img src="img/depoimento.png"
+                    </section>
+                    <section id="visita">                   <!-- INICIO SEÇÃO VISITA-->
+                        <h4> Faça uma Visita</h4>
+                        <form>
+                            <fieldset>
+                                <legend> Selecione uma Data</legend>
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd Pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                            </fieldset>
+                            <input class="botao" type="submit" value="Verificar Disponibilidade">
+                        </form>
+
+                    </section> <!-- FIM SEÇÃO VISITA-->
+                    <section id="galeria">
+                        <h4> Galeria de Fotos</h4>
+                        <a href="">
+                            <img src="img/imagem1.jpg" height="93" width="93"
+                            alt="Descrição imagem"
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem2.jpg" height="93" width="93"
+                            alt="Descrição imagem"
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" height="93" width="93"
+                            alt="Descrição imagem"
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" height="93" width="93"
+                            alt="Descrição imagem"
+                        </a>
+
+                    </section>
+
+
+                </aside> <!-- FIM ASIDE-->
+
+                <footer style="clear:both;">
+                    <p>
+                        <a href="#">Home</a>
+                        <a href="#">Exposições</a>
+                        <a href="#">Pesquisa</a>
+                        <a href="#">Acervo</a>
+                        <a href="#">Vídeos</a>
+                        <a href="#">Fotos</a>
+                        <a href="#">Contatos</a>
+                    </p>
+                    <p>
+                        2019 <a href="">Museu Nacional</a> - Todos os Direitos Reservados.
+                    </p>
+                </footer>
+
+            
+
+
+        </div> <!-- FIM DO CONTAINER-->
+        
+    </body>
+</html>
